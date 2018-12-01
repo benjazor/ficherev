@@ -1,22 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
 header {
+  margin: 0 auto;
   display: flex;
   flex-flow: row;
   align-items: center;
 
   color: white;
   background-color: #3498db;
+  max-width: 1920px;
 }
 
 header * {
   padding: 1.2vh 3vw;
   margin: 0;
-  font-size: 1.7vw;
+  font-size: 1.7vh;
   text-decoration: none;
   color: white;
 
@@ -53,4 +49,9 @@ header form * {
 #search:hover {
   background-color: #2ecc71;
   cursor: pointer;
+}
+
+@media screen and (min-width: 200px) and (max-width: 720px) {
+  #Title { display: none; }
+  header * { padding: 1.2vh 1.5vw;}
 }

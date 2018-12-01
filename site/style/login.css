@@ -1,29 +1,39 @@
-div.content {
-  padding: 3vh 0;
+form.login {
+  width: 0;
+  margin: 0 auto;
+  padding: 0 15vw;
 
   display: flex;
   flex-flow: column;
-
   align-items: center;
+
+  font-size: 1.75vh;
+
+  background-color: #3498db;
+  color: white;
 }
 
-div.content div {
-  margin: 0 0 4vh 0;
-  padding: 2vh 5vw;
-  border-radius: 5vh;
-  background-color: #ecf0f1;
-}
-
-form {
+form.login div {
+  width: 25vw;
+  padding: 0.5vh 0;
   display: flex;
-  flex-flow: column;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 
-form input {
-  margin: 0 0 0.75vh 0;
-  font-size 2vh;
+form.login div input {
+  width: 15vw;
+  font-size: 1.25vh;
+  margin: 0 0 0 0;
 }
 
-div.content div h1 {
-  margin: 0 0 3.5vh 0;
+#login {
+  padding: 0.2vh 3vw;
+  border: none;
+
+  font-size: 1.75vh;
+  background-color: #2980b9;;
+  color: white;
 }
