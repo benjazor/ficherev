@@ -1,17 +1,15 @@
-div.register {
+form.connection {
   width: 35vw;
+
+  display: flex;
+  flex-flow: column;
 
   font-size: 1.75vh;
   background-color: #3498db;
   color: white;
 }
 
-form.register {
-  display: flex;
-  flex-flow: column;
-}
-
-form.register div {
+form.connection div {
   width: 35vw;
   padding: 0.5vh 0;
 
@@ -21,9 +19,9 @@ form.register div {
   align-items: center;
 }
 
-form.register div h4 { font-weight: normal; }
+form.connection div h4 { font-weight: normal; }
 
-form.register div input {
+form.connection div input {
   width: 15vw;
   margin: 0 3vw;
   padding: 0.3vh 0.5vw;
@@ -31,7 +29,7 @@ form.register div input {
   border: none;
 }
 
-#register {
+#login, #register {
   width: 20vw;
   padding: 0.2vh 3vw;
   border: none;

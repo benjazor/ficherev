@@ -4,38 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/connection.css">
     <title></title>
   </head>
   <body>
-    <div class="content">
 
-      <div class="login">
-        <h1>Login</h1>
-        <form class="" action="login.php" method="post">
-          <h4>Username:</h4>
-          <input type="text" name="username" value="">
-          <h4>Password:</h4>
-          <input type="text" name="password" value="">
-          <input type='submit' name="login" value="Login">
-        </form>
-      </div>
 
-      <div class="register">
-        <h1>Register</h1>
-        <form class="" action="register.php" method="post">
-          <h4>E-mail</h4>
-          <input type="text" name="email" value="">
-          <h4>Confirmation</h4>
-          <input type="text" name="email-confirmation" value="">
-          <h4>Password</h4>
-          <input type="text" name="password" value="">
-          <h4>Confirmation</h4>
-          <input type="text" name="password-confirmation" value="">
-          <input type='submit' name="" value="Register">
-        </form>
-      </div>
+    <form class="connection" action="register.php" method="post">
+      <div> <h4>Username:</h4> <input type="text" name="username" value=""> </div>
+      <div> <h4>E-Mail:</h4> <input type="text" name="email" value=""> </div>
+      <div> <h4>Confirmation:</h4> <input type="text" name="email_confirmation" value=""> </div>
+      <div> <h4>Password:</h4> <input type="password" name="password" value=""> </div>
+      <div> <h4>Confirmation:</h4> <input type="password" name="password_confirmation" value=""> </div>
+      <input type='submit' id="register" value="Register">
+    </form>
 
-    </div>
+
   </body>
 </html>
